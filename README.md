@@ -27,7 +27,7 @@ pip install requests</code></pre>
     <li>Setup a virtual environment (optional but recommended).</li>
     <li>Clone this repository:</li>
 </ul>
-<pre><code>git clone https://github.com/yourusername/VulnScanner.git</code></pre>
+<pre><code>git clone https://github.com/Krishna-Vamsi-G/Advanced-Software-System-Security.git</code></pre>
 
 <h2>Running VulnScanner</h2>
 <p>Navigate to the cloned directory:</p>
